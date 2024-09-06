@@ -9,3 +9,19 @@ write a new program that uses a loop to draw a pentagon.
 """
 
 ... # Your code here
+
+
+
+tina.forward(200)
+tina.left(220)
+tina.forward(220)
+tina.left(220)
+tina.forward(200)
+tina.left(220)
+tina.forward(200)
+tina.left(220)
+tina.forward(220)
+tina.left(220)
+tina.forward(200)
+tina.left(220)
+tina.pencolor("blue"

@@ -35,8 +35,8 @@ t.penup()
 t.speed(3)
 
 for i in range(4):
-    t.goto(200, 200)
-    t.goto(200, 200)
+    t.goto(300, 300)
+    t.goto(25, 25)
 
 
 turtle.exitonclick()     

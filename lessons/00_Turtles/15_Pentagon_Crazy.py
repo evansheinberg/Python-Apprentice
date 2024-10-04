@@ -1,4 +1,4 @@
-import turtle                           # Tell Python we want to work with the turtle
+im  port turtle                           # Tell Python we want to work with the turtle
 turtle.setup (width=600, height=600)    # Set the size of the window
 
 tina = turtle.Turtle()                  # Create a turtle named tina
@@ -49,7 +49,7 @@ t.right(90)
 t.forward(50)
 t.right(90)
 t.circle(-150,60)
-t.end_fill()
+t.fill()
 # third circle of green color
 t.right(90)
 t.forward(50)

@@ -1,4 +1,4 @@
-im  port turtle                           # Tell Python we want to work with the turtle
+import turtle                           # Tell Python we want to work with the turtle
 turtle.setup (width=600, height=600)    # Set the size of the window
 
 tina = turtle.Turtle()                  # Create a turtle named tina
@@ -20,7 +20,6 @@ t.color('#4285F4','#4285F4') ## RBG value of color
 t.pensize(5)
 #change the drawing speed
 t.speed(1)
-## first circle for red color
 t.forward(120)
 t.right(90)
 t.circle(-150,50)  
@@ -49,7 +48,7 @@ t.right(90)
 t.forward(50)
 t.right(90)
 t.circle(-150,60)
-t.fill()
+t.end_fill()
 # third circle of green color
 t.right(90)
 t.forward(50)
@@ -81,7 +80,6 @@ t.right(90)
 t.circle(-150,50)
 t.right(90)
 t.forward(50)
-
 #end
 t.end_fill()
 t.penup()

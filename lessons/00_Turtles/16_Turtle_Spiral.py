@@ -12,17 +12,12 @@ import turtle
 # Returns a random color!
 def getRandomColor():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
-
-
 window = turtle.Screen()
 window.bgcolor("white")
-
 # Make a new turtle
 myTurtle = turtle.Turtle()
-
 # This code sets our shape to a turtle
 myTurtle.shape("turtle")
-
 # Set your turtle's speed
 myTurtle.speed(0)
 

@@ -18,3 +18,6 @@ screen.bgcolor('white')
 t = turtle.Turtle()
 
 ... # Your Code Here
+import.turtle
+turtle.setup
+
